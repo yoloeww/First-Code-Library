@@ -3,21 +3,21 @@
 int main(void)
 {
     double a, b, c, d, e, t;
-    printf("ÇëÊäÈëÒ»Ôª¶ş´Î·½³ÌµÄÈı¸öÏµÊı:\n");
-    scanf("%lf%lf%lF", &a, &b, &c);
+    printf("è¯·è¾“å…¥ä¸€å…ƒäºŒæ¬¡æ–¹ç¨‹çš„ä¸‰ä¸ªç³»æ•°:\n");
+    scanf("%lf%lf%lf", &a, &b, &c);
     if (fabs(a - 0) <= 1e-6)
     {
-        printf("ÊäÈëÓĞÎó£¬³ÌĞò½áÊøÔËĞĞ");
+        printf("è¾“å…¥æœ‰è¯¯ï¼Œç¨‹åºç»“æŸè¿è¡Œ");
         return 0;
     }
     d = (b * b )- 4 * a * c;
     e = (-b + sqrt(d)) / (2 * a);
     t = (-b - sqrt(d)) / (2 * a);
     if (d < 0)
-        printf("¸Ã·½³ÌÃ»ÓĞ½â");
+        printf("è¯¥æ–¹ç¨‹æ²¡æœ‰è§£");
     else if (fabs(d) <= 1e-6)
-        printf("¸Ã·½³ÌÓĞÒ»¸ö½â=%lf\n", -b / (2 * a));
+        printf("è¯¥æ–¹ç¨‹æœ‰ä¸€ä¸ªè§£=%lf\n", -b / (2 * a));
     else
-        printf("¸Ã·½³ÌÓĞÁ½¸ö½âÎª%lf,%lf\n", e, t);
+        printf("è¯¥æ–¹ç¨‹æœ‰ä¸¤ä¸ªè§£ä¸º%lf,%lf\n", e, t);
     return 0;
 }

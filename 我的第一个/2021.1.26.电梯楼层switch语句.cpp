@@ -1,22 +1,23 @@
 #include<stdio.h>
+
 int main(void)
 {
   int a;
-  printf("请输入电梯楼层\n");
+  printf("璇疯緭鍏ョ數姊ゼ灞俓n");
   scanf("%d",&a);
   switch(a)
   {
   case 1:
-     printf("上一楼\n");
+     printf("涓婁竴妤糪n");
 	 break;
   case 2:
-     printf("上二楼\n");
+     printf("涓婁簩妤糪n");
 	 break;
   case 3:
-     printf("上三楼\n");
+     printf("涓婁笁妤糪n");
      break;
   default:
-     printf("没有这个楼层\n");
+     printf("娌℃湁杩欎釜妤煎眰\n");
 	 break;
   }
   return 0;

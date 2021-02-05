@@ -10,8 +10,8 @@ int main(void)
         if(a[i]>a[i+1]) 
 		{
 		  t=a[i+1];
-	      a[i+1]=a[i];
- 	      a[i]=t;
+	      a[i+1]=a[i];  
+ 	          a[i]=t;
 		}
 	  }
 	}

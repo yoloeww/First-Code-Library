@@ -34,8 +34,7 @@ bool del(int *a,int index)
 int main(void)
 {   
 	int a[len]={2,41,213,4,1};
-	printf("有效元素的个数为:%d\n",length(a));
+	printf("脫膼膼搂脭艦脣艠木脛赂枚臉媒脦艦:%d\n",length(a));
 	show(a);
-
 	return 0;
 }

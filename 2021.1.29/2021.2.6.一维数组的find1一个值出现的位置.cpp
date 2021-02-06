@@ -27,15 +27,15 @@ int find1(int a[],int value)
    for(int i=0;i<len;i++)
    {
        if(a[i]==value)
-	    printf("该元素的下标=%d\n",i);
+	    printf("璇ュ厓绱犵殑涓嬫爣=%d\n",i);
    }
   return -1;
 }
 int main(void)
 {
 	int a[LEN]={23,25,2,9,2};
-    printf("该数组的有效元素=%d\n",length(a));
+    printf("璇ユ暟缁勭殑鏈夋晥鍏冪礌=%d\n",length(a));
     show(a);
     find1(a,23);
-	return 0;
+	return 0; 
 }

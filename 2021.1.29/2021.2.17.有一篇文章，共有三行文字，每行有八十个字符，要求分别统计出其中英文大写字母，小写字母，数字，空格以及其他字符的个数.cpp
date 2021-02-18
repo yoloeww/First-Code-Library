@@ -3,10 +3,10 @@ int main(void)
 {
     char a[3][80];
 	int b=0,c=0,d=0,e=0,f=0;
-	for(int i=1;i<=3;i++)
+	for(int i=0;i<3;i++)
 	{
-		 printf("µÚ%dÐÐ×Ö·ûÎª:",i);
-		 gets(a[i]);   //ÓÃÓÚÊäÈëÒ»ÐÐ×Ö·û´®
+		 printf("ç¬¬%dè¡Œå­—ç¬¦ä¸º:",i+1);
+		 gets(a[i]);   //ç”¨äºŽè¾“å…¥ä¸€è¡Œå­—ç¬¦ä¸²
 	     for(int j=0;j<80 && a[i][j]!='\0';j++)
 		 { 
              if(a[i][j]>'A'&&a[i][j]<'Z')
@@ -21,10 +21,10 @@ int main(void)
 				 f++;
 		 }
 	}
-      printf("´óÐ´×ÖÄ¸¸öÊý=%d\n",b);
-      printf("Ð¡Ð´×ÖÄ¸¸öÊý=%d\n",c);
-      printf("Êý×Ö¸öÊý=%d\n",d);
-	  printf("¿Õ¸ñ¸öÊý=%d\n",e);
-	  printf("ÆäËû×Ö·û¸öÊý=%d\n",f);
+      printf("å¤§å†™å­—æ¯ä¸ªæ•°=%d\n",b);
+      printf("å°å†™å­—æ¯ä¸ªæ•°=%d\n",c);
+      printf("æ•°å­—ä¸ªæ•°=%d\n",d);
+	  printf("ç©ºæ ¼ä¸ªæ•°=%d\n",e);
+	  printf("å…¶ä»–å­—ç¬¦ä¸ªæ•°=%d\n",f);
 	  return 0;
 }
